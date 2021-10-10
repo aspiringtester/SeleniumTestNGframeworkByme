@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-11T08:25:23 AEDT" name="aspiringTester" finished-at="2021-10-11T08:25:35 AEDT" duration-ms="11687">
+    <groups>
+    </groups>
+    <test started-at="2021-10-11T08:25:23 AEDT" name="allTest" finished-at="2021-10-11T08:25:35 AEDT" duration-ms="11687">
+      <class name="pages.Contact2">
+        <test-method is-config="true" signature="firstOpen()[pri:0, instance:pages.Contact2@23d1e5d0]" started-at="2021-10-11T08:25:23 AEDT" name="firstOpen" finished-at="2021-10-11T08:25:32 AEDT" duration-ms="8802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstOpen -->
+        <test-method signature="validateTitle()[pri:0, instance:pages.Contact2@23d1e5d0]" started-at="2021-10-11T08:25:32 AEDT" name="validateTitle" finished-at="2021-10-11T08:25:32 AEDT" duration-ms="66" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [contact] but found [AspiringTester]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [contact] but found [AspiringTester]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at pages.Contact2.validateTitle(Contact2.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method signature="presenceOfNavbar()[pri:0, instance:pages.Contact2@23d1e5d0]" started-at="2021-10-11T08:25:32 AEDT" name="presenceOfNavbar" finished-at="2021-10-11T08:25:32 AEDT" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- presenceOfNavbar -->
+        <test-method signature="formTesting(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pages.Contact2@23d1e5d0]" started-at="2021-10-11T08:25:32 AEDT" name="formTesting" data-provider="formData" finished-at="2021-10-11T08:25:33 AEDT" duration-ms="1122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eshu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sambaru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[australia]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[vic@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Hi Eshu I am doin testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formTesting -->
+        <test-method signature="formTesting(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pages.Contact2@23d1e5d0]" started-at="2021-10-11T08:25:33 AEDT" name="formTesting" data-provider="formData" finished-at="2021-10-11T08:25:34 AEDT" duration-ms="815" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Prabhas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sambaru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[usa]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[p@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formTesting -->
+        <test-method signature="formTesting(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pages.Contact2@23d1e5d0]" started-at="2021-10-11T08:25:34 AEDT" name="formTesting" data-provider="formData" finished-at="2021-10-11T08:25:35 AEDT" duration-ms="854" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Khushi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sambaru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[canada]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[k@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formTesting -->
+        <test-method is-config="true" signature="endofTest()[pri:0, instance:pages.Contact2@23d1e5d0]" started-at="2021-10-11T08:25:35 AEDT" name="endofTest" finished-at="2021-10-11T08:25:35 AEDT" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endofTest -->
+      </class> <!-- pages.Contact2 -->
+    </test> <!-- allTest -->
+  </suite> <!-- aspiringTester -->
+</testng-results>
